@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "unboundedcorruption:perishing_extract"
+    },
+    "S": {
+      "item": "unboundedcorruption:blood_slime"
+    }
+  },
+  "pattern": [
+    "SIS",
+    "I I",
+    "SIS"
+  ],
+  "result": {
+    "count": 4,
+    "id": "unboundedcorruption:condensed_perishment"
+  }
+}
