@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "has_block_above=false": {
+      "model": "evilportal:block/color_changing_blue"
+    },
+    "has_block_above=true": {
+      "model": "evilportal:block/color_changing_red"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "multipart": [
+    {
+      "when": { "north": false },
+      "apply": [
+        { "model": "evilportal:block/amalgamated_block_face", "y": 0 },
+        { "model": "evilportal:block/amalgamated_block_face", "x": 180, "y": 180 }
+      ]
+    },
+    {
+      "when": { "north": true },
+      "apply": [
+        { "model": "evilportal:block/amalgamated_block_face_moldy", "y": 0 },
+        { "model": "evilportal:block/amalgamated_block_face_moldy", "x": 180, "y": 180 }
+      ]
+    },
+    {
+      "when": { "east": false },
+      "apply": [
+        { "model": "evilportal:block/amalgamated_block_face", "y": 90 },
+        { "model": "evilportal:block/amalgamated_block_face", "x": 180, "y": 270 }
+      ]
+    },
+    {
+      "when": { "east": true },
+      "apply": [
+        { "model": "evilportal:block/amalgamated_block_face_moldy", "y": 90 },
+        { "model": "evilportal:block/amalgamated_block_face_moldy", "x": 180, "y": 270 }
+      ]
+    },
+    {
+      "when": { "south": false },
+      "apply": [
+        { "model": "evilportal:block/amalgamated_block_face", "y": 180 },
+        { "model": "evilportal:block/amalgamated_block_face", "x": 180, "y": 0 }
+      ]
+    },
+    {
+      "when": { "south": true },
+      "apply": [
+        { "model": "evilportal:block/amalgamated_block_face_moldy", "y": 180 },
+        { "model": "evilportal:block/amalgamated_block_face_moldy", "x": 180, "y": 0 }
+      ]
+    },
+    {
+      "when": { "west": false },
+      "apply":  [
+        { "model": "evilportal:block/amalgamated_block_face", "y": 270 },
+        { "model": "evilportal:block/amalgamated_block_face", "x": 180, "y": 90 }
+      ]
+    },
+    {
+      "when": { "west": true },
+      "apply": [
+        { "model": "evilportal:block/amalgamated_block_face_moldy", "y": 270 },
+        { "model": "evilportal:block/amalgamated_block_face_moldy", "x": 180, "y": 90 }
+      ]
+    },
+    {
+      "when": { "up": false },
+      "apply": [
+        { "model": "evilportal:block/amalgamated_block_face", "x": 270 },
+        { "model": "evilportal:block/amalgamated_block_face", "x": 270, "y": 90 },
+        { "model": "evilportal:block/amalgamated_block_face", "x": 270, "y": 180 },
+        { "model": "evilportal:block/amalgamated_block_face", "x": 270, "y": 270 }
+      ]
+    },
+    {
+      "when": { "up": true },
+      "apply": [
+        { "model": "evilportal:block/amalgamated_block_face_moldy", "x": 270 },
+        { "model": "evilportal:block/amalgamated_block_face_moldy", "x": 270, "y": 90 },
+        { "model": "evilportal:block/amalgamated_block_face_moldy", "x": 270, "y": 180 },
+        { "model": "evilportal:block/amalgamated_block_face_moldy", "x": 270, "y": 270 }
+      ]
+    },{
+      "when": { "down": false },
+      "apply": [
+        { "model": "evilportal:block/amalgamated_block_face", "x": 90, "y": 0 },
+        { "model": "evilportal:block/amalgamated_block_face", "x": 90, "y": 90 },
+        { "model": "evilportal:block/amalgamated_block_face", "x": 90, "y": 180 },
+        { "model": "evilportal:block/amalgamated_block_face", "x": 90, "y": 270 }
+      ]
+    },
+    {
+      "when": { "down": true },
+      "apply": [
+        { "model": "evilportal:block/amalgamated_block_face_moldy", "x": 90, "y": 0 },
+        { "model": "evilportal:block/amalgamated_block_face_moldy", "x": 90, "y": 90 },
+        { "model": "evilportal:block/amalgamated_block_face_moldy", "x": 90, "y": 180 },
+        { "model": "evilportal:block/amalgamated_block_face_moldy", "x": 90, "y": 270 }
+      ]
+    }
+  ]
+}
