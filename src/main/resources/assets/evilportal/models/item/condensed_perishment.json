@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "evilportal:item/blood_slime_bunch"
-  }
-}
