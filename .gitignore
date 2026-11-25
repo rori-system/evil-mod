@@ -38,3 +38,17 @@ run/
 **/src/generated/**/.cache/
 repo/
 !**/src/**/repo/
+
+# Logs and crash reports
+logs/
+crash-reports/
+
+# Java
+*.class
+
+# Operating system
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
